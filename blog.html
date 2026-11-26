@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Health Blog | Dr. Arman Hossain</title>
+<meta name="description" content="Clear, trustworthy neurology advice for patients and families — migraine triggers, stroke warning signs, epilepsy, sleep, neuropathy and brain health.">
+<meta name="theme-color" content="#1E3A6D">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600&family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<script src="assets/js/tailwind-config.js"></script>
+</head>
+<body class="bg-white font-sans text-body antialiased overflow-x-hidden [&_:focus-visible]:outline-2 [&_:focus-visible]:outline-offset-2 [&_:focus-visible]:outline-teal motion-reduce:[&_*]:!animate-none motion-reduce:[&_*]:!transition-none" data-page="blog">
+<button type="button" onclick="document.getElementById('app').focus()" class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-[100] focus:rounded-full focus:bg-teal focus:px-5 focus:py-2 focus:font-semibold focus:text-deep">Skip to content</button>
+<div id="progress" class="fixed top-0 left-0 z-[70] h-1 w-0 bg-gradient-to-r from-teal to-navy"></div>
+<header id="hdr" class="sticky top-0 z-50"></header>
+<main id="app" tabindex="-1" class="outline-none transition-all duration-500"></main>
+<footer id="ftr"></footer>
+<div id="toasts" class="fixed bottom-5 right-5 z-[90] flex flex-col gap-2" aria-live="polite"></div>
+<button id="toTop" type="button" aria-label="Back to top" class="fixed bottom-5 left-5 z-40 grid size-12 translate-y-20 place-items-center rounded-full bg-navy text-white opacity-0 shadow-[0_6px_0_#0f2347,0_14px_20px_-6px_rgba(15,35,71,.5)] transition-all duration-300 hover:-translate-y-1"></button>
+<script src="assets/js/images.js"></script>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/shared.js"></script>
+<script src="assets/js/pages/blog.js"></script>
+</body>
+</html>
